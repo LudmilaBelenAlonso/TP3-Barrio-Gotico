@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Bienvenido al Barrio Gótico</title>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="../style.css"/>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body id="reservas">
+    <main>
+        <header>
+            <nav class="menu">
+               <ul>
+                   <li><a href="quever.html">Que Ver</a></li>
+                   <li><a href="../index.html" id="inicio">Barrio Gótico</a></li>
+                   <li><a href="quehacer.html">Que hacer</a></li>
+               </ul>
+            </nav>
+        </header>
+        
+        <section class="gral">
+            <article>
+                <div class="encabezado">
+                    <h1>Reserva tu Lugar</h1>
+                    <p>Desde aquí reserva tu actividad en el día que prefieras, no esperes hasta último momento.</p>
+                </div>
+                <form action="http://recursos.grodriguez.com.ar/FORM/" method="get">
+                    <p>Actividad</p>
+                    <div class="select">
+                        <select name="actividad">
+                              <option value="Historias y leyendas del Barrio Gótico">Historias y leyendas del Barrio Gótico</option>
+                              <option value="Barcelona gótica">Barcelona gótica</option><option value="our por el Barrio Gótico  y Palau Güell">Tour por el Barrio Gótico  y Palau Güell</option>
+                              <option value="Barrio Gótico y taller de cocina">Barrio Gótico y taller de cocina</option>
+                              <option value="Seminario Narrativa - Terror Gótico">Seminario Narrativa - Terror Gótico</option>
+                        </select>
+                    </div>
+                    
+                    <p>Día</p>
+                    <input type="date" name="fecha" min="2019-07-01" max="2019-12-31" class="datepicker" data-date-format="dd/mm/yyyy">
+                    
+                    <p>Nombre</p>
+                    <input type="text" name="nombre" placeholder="Escriba su nombre aquí" required>
+                    
+                    <p>Nro de Documento</p>
+                    <input type="text" name="documento" placeholder="Escriba su nro de documento aquí" required>
+                    
+                    <p>E-mail</p>
+                    <input type="text" name="email" placeholder="Ingrese su email aquí">
+                    
+                    <p>Nro de Teléfono</p>
+                    <input type="text" name="telefono" placeholder="Ingrese su nro teléfonico aquí">
+                    
+                    <input type="submit" value="Reservar" id="boton">
+                    
+                </form>
+                <scrip type="text/javascript">
+                    
+                </scrip>
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Diseñado y desarrollado por Ludmila Belén Alonso</p>
+    </footer>
+</body>
+</html>
