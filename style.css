@@ -206,7 +206,7 @@
 }
 
 /** mod del ancla que lleva al form **/
-#ancla {
+.ancla {
     text-decoration: none;
     background-color: #ffffff;
     color:#000000;
@@ -216,7 +216,7 @@
     text-align: center;
 }
 
-#ancla:hover{
+.ancla:hover{
     background-color: #09d1a2;
 }
 
