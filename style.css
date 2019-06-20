@@ -88,26 +88,33 @@
 
 /**Corte Negro central - bkg y p**/
 
-.seccion article {
-    background-color: #000000;
+.seccion {
     margin-top: 200px;
-    margin-left: 0;
-    margin-right: 0;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 #home .seccion p {
-    width: 960px;
-    padding: 10px 100px 10px 200px;
-    margin: 0;
+    background-color: #000000;
+    margin: auto;
     font-size: 20px;
     text-align: justify;
-    
+    padding-left: 300px;
+    padding-right: 300px;    
 }
 
-#home iframe{
-    margin-left: 650px;
+#p1 {
+   padding-top: 50px;
 }
 
+#p2 {
+    padding-bottom: 50px;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
 
 /******************** Que Ver***********************/
 
@@ -155,6 +162,7 @@
 
 #lugares h2 {
     font-size: 25px;
+    margin-top: 0;
 }
 
 #lugares p {
@@ -206,7 +214,7 @@
 }
 
 /** mod del ancla que lleva al form **/
-.ancla {
+a[href="reservas.html"] {
     text-decoration: none;
     background-color: #ffffff;
     color:#000000;
@@ -216,7 +224,7 @@
     text-align: center;
 }
 
-.ancla:hover{
+a[href="reservas.html"]:hover{
     background-color: #09d1a2;
 }
 
