@@ -231,7 +231,7 @@ a[href="reservas.html"]:hover{
 
 /*************************Reservas******************/
 
-#reservas {
+#reservas, #gracias {
     background-image: url(img/bkgReservas.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -250,10 +250,11 @@ a[href="reservas.html"]:hover{
     width: 500px;
     height: 25px;
     font-family: violina, helvetica, arial, sans-serif;
+    font-size: 20px;
 }
 
 /**Boton**/
-#boton { 
+.boton { 
     color: #000000;
     margin-top: 20px;
     width: 200px;
@@ -304,6 +305,21 @@ input[type="date"]::-webkit-inner-spin-button {
 
 input[type="date"]::-webkit-calendar-picker-indicator {
     opacity: 0;
+}
+
+/*******************Gracias*************************/
+#gracias .gral{
+    height: 900px;
+}
+
+#gracias h1 {
+    font-size: 30px;
+}
+
+a[href="../index.html"]{    
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 70px
 }
 
 /************ Contenido ****************************/
